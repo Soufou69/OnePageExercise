@@ -3,7 +3,7 @@ import Rect from './brandBand/rect';
 
 export default function BrandBand(){
     return(
-        <div className={band}>
+        <div className={band} id="bb">
             <div className={rectangle} style={{background: '#100E14',}}>
                 <p>I used</p>
             </div>

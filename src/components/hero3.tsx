@@ -3,7 +3,7 @@ import Cards from './hero3/cards';
 import Fade from 'react-reveal/Fade'
 export default function Hero3(){
     return(
-        <div className={hero}>
+        <div className={hero} id="hero3">
             <div className={container}>
                 <Fade bottom>
                     <div className={circle}><h2 className={num}>2</h2></div>

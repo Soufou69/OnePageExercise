@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 export default function Hero2(){
     return(
-        <div className={hero}>
+        <div className={hero} id="hero2">
             <div className={container}>
                 <Fade bottom>
                 <div className={circle}><h2 className={num}>1</h2></div>

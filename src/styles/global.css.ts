@@ -67,3 +67,7 @@ export const footer = style({
 export const hrFooter = style({
     width: '20%',
 });
+
+globalStyle('html', {
+    scrollBehavior: 'smooth',
+});

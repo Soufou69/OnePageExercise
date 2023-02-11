@@ -51,16 +51,18 @@ export const list = style({
 
 export const navbar = style({
     width: "100%",
-    minHeight: 150,   
+    minHeight: 150,
+    position: 'sticky',
+    
 
 });
 
 export const link = style({
     selectors: {
-        'nav li > &:hover:not(:active)':{
+        'nav li a > &:hover:not(:active)':{
             color : 'white',
         },
-      'nav li > &': {
+      'nav li a > &': {
         textDecoration: 'none',
         color: '#ffffff63',
       }
@@ -136,3 +138,9 @@ export const link = style({
     width: '50%'
   });
 
+  export const navbarFixed = style({
+    position: 'fixed',
+    width: "100%",
+    minHeight: 150, 
+
+  });
