@@ -57,3 +57,13 @@ export const circleVert = style({
     justifyContent: 'center',
     alignItems: 'center',
 });
+
+export const footer = style({
+    width: '100%',
+    marginTop: 100,
+    textAlign: 'center',
+});
+
+export const hrFooter = style({
+    width: '20%',
+});

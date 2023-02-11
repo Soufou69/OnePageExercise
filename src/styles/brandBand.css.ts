@@ -2,10 +2,11 @@ import { style, globalStyle, keyframes } from '@vanilla-extract/css';
 
 export const rectangle = style({
     textAlign: 'center',
-    height: 150,
+    height: 190,
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    alignItems: 'center',
 
 });
 

@@ -5,6 +5,7 @@ import Hero2 from './components/hero2'
 import Hero3 from './components/hero3'
 import BrandBand from './components/brandBand'
 import {heros} from './styles/style.css';
+import Footer from './components/footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
         <Hero2 />
         <Hero3 />
         <BrandBand />
+        <Footer />
       </div>
     </div>
   )
