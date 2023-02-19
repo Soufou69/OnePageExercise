@@ -15,7 +15,7 @@ export default function Hero2(){
                 </Fade>
                 <Cards />
                 <div style={{position: 'absolute', top:'52%', left:'calc(50% - 7px)'}}>
-                    <svg height="430" style={{filter: 'drop-shadow(0px 0px 13px #3963B5)'}}>
+                    <svg height="430" width="13" style={{filter: 'drop-shadow(0px 0px 13px #3963B5)'}}>
                         <rect x="0" y="0" width="13" height="410" fill="#2256bd45"></rect>
                     </svg> 
                 </div>

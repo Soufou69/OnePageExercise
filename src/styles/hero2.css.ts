@@ -10,7 +10,7 @@ globalStyle('h3',{
 export const hero = style({
     width: '100%',
     height: '100vh',
-    background: '#13111C',
+    background: '#241e35',
 });
 
 export const container = style({
@@ -63,6 +63,10 @@ export const card = style({
     display: 'flex',
     overflow:'hidden',
     position: 'relative',
+    ':hover': {
+        'borderColor': '#1b3184',
+        'boxShadow': '0 0 17px 2px #1b3184',
+    },
 });
 
 export const cards = style({

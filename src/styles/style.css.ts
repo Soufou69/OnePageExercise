@@ -7,7 +7,7 @@ globalStyle('body, html', {
 });
 
 globalStyle('body',{
-    backgroundColor: "#14111C",
+    backgroundColor: "#241e35",
     color: 'white',
     fontFamily: 'Roboto, sans-serif',
 });
@@ -41,7 +41,7 @@ export const siteName = style({
 export const hero1 = style({
     width: '100%',
     height: '100vh',
-    background: 'linear-gradient(90deg, rgba(20,17,28,1) 0%, rgba(22,15,31,1) 70%, rgba(35,14,45,1) 100%)',
+    background: 'linear-gradient(90deg, rgb(41, 35, 57) 0%, rgb(39, 26, 55) 55%, rgb(67, 22, 89) 100%)',
 });
 
 export const list = style({
@@ -119,7 +119,7 @@ export const link = style({
     backgroundImage: 'linear-gradient(90deg, rgba(133,59,206,1) 0%, rgba(35,14,45,1) 50%, rgba(38,31,58,1) 100%)',
     borderRadius:"5px",
     textAlign: 'center',
-    animation: `${gradientAnim} 1.5s ease infinite`
+    animation: `${gradientAnim} 4.5s ease infinite`
   });
 
   export const spanArnaque = style({
